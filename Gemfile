@@ -28,5 +28,6 @@ gem "garb" #, "~> 0.9.8"    # Google Analytics API
 gem 'classifier-reborn'
 #gem 'classifier-reborn', :git => "https://github.com/jekyll/classifier-reborn"
 gem 'rb-gsl'
+gem 'httparty'
 #gem 'narray', :git => "https://github.com/tonyarnold/narray"
 #gem 'gsl', :git => "https://github.com/tonyarnold/rb-gsl"

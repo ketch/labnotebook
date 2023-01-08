@@ -3,6 +3,7 @@ require 'octokit'   # Github API
 require 'twitter'   # Twitter API
 require 'redcarpet' # Formatting links
 require 'nokogiri'  # Parse HTML
+require 'httparty'
 
 # Need to store feed in cache and just call update?
 
@@ -47,7 +48,8 @@ module Jekyll
     end
     def render(context)
       out = "<ul>"
-      feed = Feedjira::Feed.fetch_and_parse("https://github.com/" + @user + ".atom")
+      xml = HTTParty.get("https://github.com/" + @user + ".atom").body
+      feed = Feedjira.parse(xml)
       # consider formatting properly
       if feed != 0
           for i in 0 ... @count.to_i
