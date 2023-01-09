@@ -20,8 +20,8 @@ subtitle: Mathematics and computation from the shores of the Red Sea
 
 <b>David I. Ketcheson</b></br>
 <img src="assets/img/davidketcheson.jpg" align="right"></img>
-I am an associate professor of
-<a href="http://cemse.kaust.edu.sa/academic/programs/applied-mathematics-computational-science/default.aspx">applied mathematics</a> at King Abdullah University
+I am a Professor of
+<a href="http://cemse.kaust.edu.sa/academic/programs/applied-mathematics-computational-science/default.aspx">Applied Mathematics and Computational Science</a> at King Abdullah University
 of Science and Technology (<a href="http://www.kaust.edu.sa">KAUST</a>), where
 I lead the <a href="http://numerics.kaust.edu.sa">Numerical Mathematics Group</a>.
 
